@@ -16,5 +16,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
+  
+}
+.class{
+
 }
 </style>
