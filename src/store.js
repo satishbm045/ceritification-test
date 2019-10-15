@@ -27,7 +27,7 @@ export default new Vuex.Store({
   },
   actions: {
     goToHomedefault({commit}){
-      commit("updateQuestionSet",storeData);
+      commit("updateQuestionSet",defaultQuestionSet);
       commit("updateViewQuestion",0);
       commit("updateOfNameAndLanguage",{nameOfCandidate: '',selectedLanguage:''});
     }
