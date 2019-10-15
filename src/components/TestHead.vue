@@ -3,7 +3,7 @@
         <div class="heading">      
             Hi {{nameOfCandidate}}!
         </div>
-        <div class="Timer" id="timer">10:00</div>
+        <div class="Timer" id="timer">{{settime}}:00</div>
     </div>
 </template>
 
@@ -14,12 +14,13 @@ export default {
     return {
       nameOfCandidate: this.$store.state.nameOfCandidate,
       selectedLanguage: this.$store.state.selectedLanguage,
-      showScoreComponent: false
+      showScoreComponent: false,
+      settime: this.$store.getters.getQuestionSetLength
     }
   },
   mounted(){
     var self = this;
-     setTimeout(function () {self.countdown(1)},1000);
+     setTimeout(function () {self.countdown(self.settime)},1000);
   },
   computed:{
     checkShowScore(){
