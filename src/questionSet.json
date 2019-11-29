@@ -245,7 +245,7 @@
             [
                 {
                     "question": "Which of the following is correct about features of JavaScript?",
-                    "options" : ["JavaScript is a lightweight, interpreted programming language"
+                    "options" : ["JavaScript is a lightweight <br>, interpreted programming language"
                         ,"JavaScript is designed for creating network-centric applications"
                         ,"JavaScript is complementary to and integrated with Java"
                         ,"All of the above"],
