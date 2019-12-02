@@ -1,29 +1,7 @@
-# first
+To run this application
 
-## Project setup
-```
-npm install
-```
+Download all the file and run a commond "npm install" in node.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+To run the application use "npm start"
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Live Url: https://certificate-test-app.netlify.com/
